@@ -28,9 +28,9 @@ const Calculator = {
   }
 };
 
-function actionApplyer(starting, arrayOfFunctions) {
-  for (let i = 0 ; i < starting.length; i++){
-    starting = arrayOfFunctions[i](starting);
+function actionApplyer(startingNum, arrayOfFunctions) {
+  for (let i = 0 ; i < startingNum.length; i++){
+    startingNum = arrayOfFunctions[i](startingNum);
   }
   return starting;
 }
