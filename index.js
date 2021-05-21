@@ -29,7 +29,7 @@ const Calculator = {
 };
 
 function actionApplyer(startingNum, arrayOfFunctions) {
-  for (let i = 0 ; i < startingNum.length; i++){
+  for (let i = 0 ; i < arrayOfFunctions.length; i++){
     startingNum = arrayOfFunctions[i](startingNum);
   }
   return starting;
