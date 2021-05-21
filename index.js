@@ -32,5 +32,5 @@ function actionApplyer(startingNum, arrayOfFunctions) {
   for (let i = 0 ; i < arrayOfFunctions.length; i++){
     startingNum = arrayOfFunctions[i](startingNum);
   }
-  return starting;
+  return startingNum;
 }
